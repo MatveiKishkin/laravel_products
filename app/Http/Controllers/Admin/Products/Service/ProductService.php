@@ -5,6 +5,9 @@ namespace App\Http\Controllers\Admin\Products\Service;
 use App\Http\Controllers\Admin\Products\Repository\ProductRepository;
 use App\Http\Controllers\Admin\Products\DataProvider\ProductDataProvider;
 use App\Http\Controllers\Admin\Products\Interfaces\IProductDataProvider;
+use App\Http\Controllers\Admin\Products\Utils\CommonBody;
+use App\Http\Controllers\Admin\Products\Utils\ListBody;
+
 
 class ProductService
 {
